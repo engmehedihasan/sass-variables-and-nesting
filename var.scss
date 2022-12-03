@@ -1,0 +1,51 @@
+/*browser reset code*/
+
+$header-bgcolor:#ffab73;
+$main-bgcolor:#ffd384;
+$footer-bgcolor:#ffaec0;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: $header-bgcolor;
+}
+
+nav{
+    margin: 12px;
+    color: aliceblue;
+    ul{
+        margin: 12px;
+        color: aliceblue;
+        
+        li{
+            display: inline-block;
+            margin: 12px;
+            color: aliceblue;
+
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                
+            }
+            a:hover{
+                background-color: black;
+            }
+    }
+}
+
+
+
+
+
+
+main{
+    background-color: $main-bgcolor;
+}
+footer{
+    padding: 15px;
+    background-color: $footer-bgcolor;
+}
